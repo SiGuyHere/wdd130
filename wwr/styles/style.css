@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -7,10 +11,12 @@ nav a {
     text-align: center;
     color: white;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1,
 #hero-msg h4 {
+    font-family: 'Merriweather Sans', sans-serif;
     text-align: center;
 }
 
@@ -26,7 +32,11 @@ main section {
     background-color: #457b9d;
 }
 body{
+    font-size: 22px;
+    font-family: 'Mooli', sans-serif;
     background-color: #457b9d;
+    margin: 0;
+    padding: 0;
 }
 header{
     background-color: #1d3557;
@@ -36,41 +46,59 @@ nav a:hover{
     color: black;
 }
 .book, .join{
+    font-size: 18px;
+    font-family: 'Merriweather Sans', sans-serif;
     background-color: #e63946;
     color: white;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     background-color: #e3a1a7;
     color: black;
 }
 .msg{
-    background-color: #6e818d;
+    background-color: #a8dadc;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer{
     background-color: #1d3557;
     color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 .home-title{
+    font-size: 2em;
+    font-family: 'Merriweather Sans', sans-serif;
     color: black;
+    margin-top: 10px;
 }
 h4{
+    font-family: 'Merriweather Sans', sans-serif;
     color: black;
 }
 .msg h2{
+    font-family: 'Merriweather Sans', sans-serif;
     color: black;
 }
 .msg p{
+    padding-bottom: 15px;
+    font-size: .8em;
     color: black;
 }
 footer a{
     text-decoration: none;
     color: white;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 footer a:hover{
     color: black;
 }
 .icon {
+    padding-top: 10px;
     width: 80px;
 }
 .logo{
@@ -85,4 +113,22 @@ footer p{
 }
 footer p a:hover {
     text-decoration: underline;
+}
+h2{
+    margin: 0;
+}
+#logo_link{
+    padding-top: 5px;
+}   
+footer .social img{
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+main section img {
+    box-sizing: border-box;
 }
