@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Merriweather+Sans&family=Open+Sans&display=swap');
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: #FEEAFA;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+nav a {
+    line-height: 300%;
+    text-align: center;
+    color: black;
+    font-family: "Open Sans", sans-serif;
+    font-size:large;
+    text-decoration: none;
+    padding: 35px;
+}
+nav a:hover{
+    background-color: #aab4ff;
+    color: white;
+}
+header{
+    background-color: #DEE2FF;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+.logo{
+    max-width: 250px;
+    max-height: 200px;
+}
+.homepicture{
+    width: 100%;
+    padding: 50px;
+    grid-column: 1/4;
+}
+#home-img{
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+}
+.homegrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.homemsg{
+    grid-column: 4/7;
+    padding:50px;
+    margin-top: 150px;
+}
+.homemsg p{
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+.homemsg h1{
+    font-family: "Open Sans", sans-serif; 
+    text-align: center;
+}
+footer{
+    background-color: #EFD3D7;
+    color: black;
+    margin-top: 100px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+footer a:hover{
+    color:white;
+}
+footer p{
+    font-family: 'Merriweather Sans', sans-serif;
+    padding: 50px
+}
+#footer-img{
+    width: 300px;
+    margin-left: 50px;
+}
