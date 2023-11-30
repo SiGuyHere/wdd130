@@ -128,8 +128,7 @@ footer p{
 .buildpicture{
     grid-column: 1/4;
     width: 100%;
-    margin: 20px;
-    margin-right: 40px;
+    margin: 50px;
     background-color:#e6e9ff;
 }
 .build-img{
@@ -140,10 +139,10 @@ footer p{
 .buildmsg{
     grid-column: 4/7;
     padding: 50px;
-    margin-top: 30%;
-    margin-left: 50px;
+    margin-top: 35%;
+    margin-left: 100px;
     margin-right: 50px;
-    margin-bottom: 30%;
+    margin-bottom: 35%;
     background-color: #e6e9ff;
     font-family: 'Inter', sans-serif;
 }
