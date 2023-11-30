@@ -141,6 +141,7 @@ footer p{
 .buildmsg{
     grid-column: 4/7;
     padding: 50px;
+    line-height: 200%;
     margin-top: 35%;
     margin-left: 100px;
     margin-right: 50px;
