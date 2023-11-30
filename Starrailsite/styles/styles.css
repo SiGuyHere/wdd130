@@ -140,10 +140,10 @@ footer p{
 .buildmsg{
     grid-column: 4/7;
     padding: 50px;
-    margin-top: 225px;
+    margin-top: 30%;
     margin-left: 50px;
     margin-right: 50px;
-    margin-bottom: 225px;
+    margin-bottom: 30%;
     background-color: #e6e9ff;
     font-family: 'Inter', sans-serif;
 }
