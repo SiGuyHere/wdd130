@@ -89,17 +89,20 @@ footer p{
     color: black;
     padding: 16px;
     font-size: 16px;
+    min-width: 120px;
     border: none;
 }
 .dropdown {
-    position: relative;
-    display: inline-block;
+    grid-column: 3/5;
+    margin: 50px;
+    text-align: center;
 }
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: #f1f1f1;
-    min-width: 160px;
+    margin-left: 140px;
+    min-width: 120px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
@@ -112,3 +115,97 @@ footer p{
 .dropdown-content a:hover {background-color: #ddd;}
 .dropdown:hover .dropdown-content {display: block;}
 .dropdown:hover .dropbtn {background-color: #aab4ff;}
+.buildgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.buildtopmsg{
+    padding: 50px;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    grid-column: 1/7;
+}
+.buildpicture{
+    grid-column: 1/4;
+    width: 100%;
+    margin: 20px;
+    margin-right: 40px;
+    background-color:#e6e9ff;
+}
+.build-img{
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+}
+.buildmsg{
+    grid-column: 4/7;
+    padding: 50px;
+    margin-top: 225px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 225px;
+    background-color: #e6e9ff;
+    font-family: 'Inter', sans-serif;
+}
+.buildtopmsg h2,.buildmsg h2{
+    font-family: "Open Sans", sans-serif;
+}
+#quantum{
+    grid-column: 1/2;
+}
+.quantumpic{
+    border: 5px solid;
+    border-color: #7e88d1;
+}
+.quantummsg{
+    border: 5px solid;
+    border-color: #7e88d1;
+}
+.imaginarypic{
+    border: 5px solid;
+    border-color: #d1b87e;
+}
+.imaginarymsg{
+    border: 5px solid;
+    border-color: #d1b87e;
+}
+.physicalpic{
+    border: 5px solid;
+    border-color: #9f9f9f;
+}
+.physicalmsg{
+    border: 5px solid;
+    border-color: #9f9f9f;
+}
+.firepic{
+    border: 5px solid;
+    border-color: #e63838;
+}
+.firemsg{
+    border: 5px solid;
+    border-color: #e63838;
+}
+.windpic{
+    border: 5px solid;
+    border-color: #90ff90;
+}
+.windmsg{
+    border: 5px solid;
+    border-color: #90ff90;
+}
+.icepic{
+    border: 5px solid;
+    border-color: #00bbff;
+}
+.icemsg{
+    border: 5px solid;
+    border-color: #00bbff;
+}
+.lightningpic{
+    border: 5px solid;
+    border-color: #d24bff;
+}
+.lightningmsg{
+    border: 5px solid;
+    border-color: #d24bff;
+}
